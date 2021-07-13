@@ -1,4 +1,4 @@
-from getmasterhash import get_local_master_hash
+from get_master_hash import get_local_master_hash
 from object_utilities import read_object
 
 def log():

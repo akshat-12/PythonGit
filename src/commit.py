@@ -1,7 +1,7 @@
 import time
 import os
 from write_tree import write_tree
-from getmasterhash import get_local_master_hash
+from get_master_hash import get_local_master_hash
 from hash_object import hash_object
 from file_utilities import write_file
 
