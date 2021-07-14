@@ -17,7 +17,7 @@
 # How to PyGit
  Initialize a repository using PyGit init.
 
- ![init](PythonGit/Gitinit.png)
+ ![init](init.png)
 
  Move into the newly created folder. You'll see a .pygit folder. Here's how the inside of it looks like.
 
