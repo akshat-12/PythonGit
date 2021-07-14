@@ -29,7 +29,7 @@
 
  Add the a.txt to the index using PyGit add.
 
- ![add](add.png)
+ ![add](https://github.com/akshat-12/PythonGit/blob/main/images/add.PNG)
 
  Commit the current index using PyGit commit.
 
