@@ -17,15 +17,15 @@
 # How to PyGit
  Initialize a repository using PyGit init.
 
- ![init](init.png)
+ ![init](https://github.com/akshat-12/PythonGit/blob/main/images/init.PNG)
 
  Move into the newly created folder. You'll see a .pygit folder. Here's how the inside of it looks like.
 
- ![inside_dir](pygit_dir.png)
+ ![inside_dir](https://github.com/akshat-12/PythonGit/blob/main/images/pygit_dir.PNG)
 
  Create a file, let's say a.txt. Input some content into a.txt.
 
- ![createfile](createfile.png)
+ ![createfile](https://github.com/akshat-12/PythonGit/blob/main/images/createfile.PNG)
 
  Add the a.txt to the index using PyGit add.
 
@@ -33,42 +33,42 @@
 
  Commit the current index using PyGit commit.
 
- ![firstcommit](firstcommit.png)
+ ![firstcommit](https://github.com/akshat-12/PythonGit/blob/main/images/firstcommit.PNG)
 
  Make some changes to working files. Change content of a.txt and add another file b.txt.
 
- ![changecontent](changecontent.png)
- ![newfile](newfile.png)
+ ![changecontent](https://github.com/akshat-12/PythonGit/blob/main/images/changecontent.PNG)
+ ![newfile](https://github.com/akshat-12/PythonGit/blob/main/images/newfile.PNG)
 
  Since the b.txt is not added to index yet, the ls-files will be same as before.
 
- ![newcheck](newcheck.png)
+ ![newcheck](https://github.com/akshat-12/PythonGit/blob/main/images/newcheck.PNG)
 
  Check the status of files using PyGit status.
 
- ![status](status.png)
+ ![status](https://github.com/akshat-12/PythonGit/blob/main/images/status.PNG)
 
  Check the differences between a.txt of the index and current a.txt using PyGit diff.
 
- ![diff](diff.png)
+ ![diff](https://github.com/akshat-12/PythonGit/blob/main/images/diff.PNG)
 
  Add the new a.txt and b.txt to the index using PyGit add.
 
- ![secondadd](secondadd.png)
+ ![secondadd](https://github.com/akshat-12/PythonGit/blob/main/images/secondadd.PNG)
 
  Commit this as well.
 
- ![secondcommit](secondcommit.png)
+ ![secondcommit](https://github.com/akshat-12/PythonGit/blob/main/images/secondcommit.PNG)
 
  See the commit logs using PyGit logs.
 
- ![logs](logs.png)
+ ![logs](https://github.com/akshat-12/PythonGit/blob/main/images/logs.PNG)
 
  Checkout the first commit using PyGit checkout
 
- ![checkout](checkout.png)
+ ![checkout](https://github.com/akshat-12/PythonGit/blob/main/images/checkout.PNG)
 
- ![checkoutcheck](checkoutcheck.png) 
+ ![checkoutcheck](https://github.com/akshat-12/PythonGit/blob/main/images/checkoutcheck.PNG) 
 
 # Literature
 
