@@ -1,7 +1,7 @@
 import hashlib
 import os
 import zlib
-from file_utilities import write_file
+from src.file_utilities import write_file
 
 def hash_object(data, obj_type, write=True):
     header = '{} {}'.format(obj_type, len(data)).encode()

@@ -1,8 +1,8 @@
 import os
-from get_master_hash import get_local_master_hash
-from object_utilities import read_object
-from read_tree import read_tree
-from file_utilities import write_file
+from src.get_master_hash import get_local_master_hash
+from src.object_utilities import read_object
+from src.read_tree import read_tree
+from src.file_utilities import write_file
 
 def checkout(commit_message):
     for f in os.listdir(os.getcwd()):

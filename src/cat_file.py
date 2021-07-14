@@ -1,7 +1,7 @@
 import sys
 import stat
-from read_tree import read_tree
-from object_utilities import read_object
+from src.read_tree import read_tree
+from src.object_utilities import read_object
 
 def cat_file(mode, sha1_prefix):
     obj_type, data = read_object(sha1_prefix)

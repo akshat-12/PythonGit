@@ -1,5 +1,5 @@
-from get_master_hash import get_local_master_hash
-from object_utilities import read_object
+from src.get_master_hash import get_local_master_hash
+from src.object_utilities import read_object
 
 def log():
     head_sha = get_local_master_hash()

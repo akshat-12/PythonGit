@@ -1,4 +1,4 @@
-from object_utilities import read_object
+from src.object_utilities import read_object
 
 def read_tree(sha1=None, data=None):
     if sha1 is not None:

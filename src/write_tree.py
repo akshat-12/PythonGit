@@ -1,5 +1,5 @@
-from hash_object import hash_object
-from index import read_index
+from src.hash_object import hash_object
+from src.index import read_index
 
 def write_tree():
     tree_entries = []

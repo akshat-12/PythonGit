@@ -1,7 +1,7 @@
 import os
-from index import read_index
-from hash_object import hash_object
-from file_utilities import read_file
+from src.index import read_index
+from src.hash_object import hash_object
+from src.file_utilities import read_file
 
 def get_status():
     paths = set()

@@ -1,5 +1,5 @@
 import zlib
-from file_utilities import read_file
+from src.file_utilities import read_file
 import os
 
 def find_object(sha1_prefix):

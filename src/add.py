@@ -1,9 +1,9 @@
 import enum
 import os
 import operator
-from index import read_index, IndexEntry, write_index
-from hash_object import hash_object
-from file_utilities import read_file
+from src.index import read_index, IndexEntry, write_index
+from src.hash_object import hash_object
+from src.file_utilities import read_file
 
 class ObjectType(enum.Enum):
     commit = 1

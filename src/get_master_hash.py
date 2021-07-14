@@ -1,5 +1,5 @@
 import os
-from file_utilities import read_file
+from src.file_utilities import read_file
 
 def get_local_master_hash():
     master_path = os.path.join('.pygit', 'refs', 'heads', 'master')

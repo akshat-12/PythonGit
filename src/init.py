@@ -1,6 +1,6 @@
 import os
 import configparser
-from file_utilities import write_file
+from src.file_utilities import write_file
 
 def init(repo):
     os.mkdir(repo)

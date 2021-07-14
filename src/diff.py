@@ -1,8 +1,8 @@
 import difflib
-from status import get_status
-from index import read_index
-from object_utilities import read_object
-from file_utilities import read_file
+from src.status import get_status
+from src.index import read_index
+from src.object_utilities import read_object
+from src.file_utilities import read_file
 
 def diff():
     changed, _, _ = get_status()

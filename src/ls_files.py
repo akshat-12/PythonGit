@@ -1,4 +1,4 @@
-from index import read_index
+from src.index import read_index
 
 def ls_files(details = False):
     for entry in read_index():

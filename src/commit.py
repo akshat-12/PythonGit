@@ -1,9 +1,9 @@
 import time
 import os
-from write_tree import write_tree
-from get_master_hash import get_local_master_hash
-from hash_object import hash_object
-from file_utilities import write_file
+from src.write_tree import write_tree
+from src.get_master_hash import get_local_master_hash
+from src.hash_object import hash_object
+from src.file_utilities import write_file
 
 def commit(message, author):
     tree = write_tree()

@@ -2,7 +2,7 @@ import collections
 import struct
 import hashlib
 import os
-from file_utilities import read_file, write_file
+from src.file_utilities import read_file, write_file
 
 IndexEntry = collections.namedtuple('IndexEntry', [
     'ctime_s', 'ctime_n', 'mtime_s', 'mtime_n', 'dev', 'ino', 'mode',
